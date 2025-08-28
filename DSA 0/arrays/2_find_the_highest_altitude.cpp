@@ -1,12 +1,12 @@
 /*
 📌 Problem 2: Find the Highest Altitude
 
-Problem Statement:
+******* Problem Statement *******
 We are given an integer array gain of length n, where each element represents the net gain (positive or negative) in altitude between two consecutive points.
 The biker starts at altitude 0.
 We need to compute the maximum altitude reached at any point during the trip.
 
-Approach:
+******* Approach *******
 netGain = netGain(0 jo ka starting point h) + gain[i] (points jo given h)
 and if highest < netGain then:
 highest = netGain
@@ -14,7 +14,7 @@ highest = netGain
 
 5. Dry Run Example
 
-Input: gain = [-5, 1, 5, 0, -7]
+Input: gain = [-5, 1, 5, 0,-7]
 Start: current = 0, highest = 0
 Step 1: current = -5 → highest = 0
 Step 2: current = -4 → highest = 0
@@ -55,3 +55,4 @@ int largestAltitude(vector<int>& gain) {
     }
     return highest;
 }
+

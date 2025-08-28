@@ -1,30 +1,28 @@
 /*
-📌 Problem 3: Final Value of variable (X) After Performaning Operations
+📌 Problem 3: Final Value of variable (X) After Performing Operations
 
-2. Problem Statement
+******* Problem Statement *******
 
-We are given an array operations where each element is one of four possible strings:
-
+We are given an array of operations where each element is one of four possible strings:
 "++X" or "X++" → increment X by 1
-
 "--X" or "X--" → decrement X by 1
 
 Initially, X = 0.
 We must return the final value of X after performing all operations.
 
-3. Approach
+******* Approach *******
 
 Start with X = 0.
 
 For each string in operations:
 If it contains "++", increment X.
 If it contains "--", decrement X.
-Return final value of X.
+Return the final value of X.
 
 
 */
 
-// solution 1 : pseudo code
+// solution 1: pseudo code
 
 #include <iostream>
 #include <vector>
@@ -44,4 +42,5 @@ int finalValueAfterOperations(vector<string>& operations) {
     }
     return X;
 }
+
 

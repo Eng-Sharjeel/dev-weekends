@@ -12,7 +12,7 @@ and if highest < netGain then:
 highest = netGain
 
 
-5. Dry Run Example
+******* Dry Run Example *******
 
 Input: gain = [-5, 1, 5, 0,-7]
 Start: current = 0, highest = 0
@@ -55,4 +55,5 @@ int largestAltitude(vector<int>& gain) {
     }
     return highest;
 }
+
 

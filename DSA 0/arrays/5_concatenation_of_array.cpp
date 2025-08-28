@@ -1,7 +1,7 @@
 /*
 📌 Problem 5: Concatenation of Array
 
-Problem Statement:
+******* Statement *******
 
 Given an integer array nums of length n, you want to create an array ans of length 2n where ans[i] == nums[i] and ans[i + n] == nums[i] for 0 <= i < n (0-indexed).
 Specifically, ans is the concatenation of two nums arrays.
@@ -13,7 +13,8 @@ Example 1:
 Input: nums = [1,2,1]
 Output: [1,2,1,1,2,1]
 
-Approach 1:
+******* Approach 1 *******
+
 1. Iterate over an array
 2. At each iteration:
     push_back()
@@ -22,9 +23,9 @@ Approach 1:
 Time complexity: O(n)
 Space complexity: O(1) 
 
-Approach 2:
+******* Approach 2 *******
 
-1. Create new array of size 2n, res
+1. Create a new array of size 2n, res
 2. iterate over the array.
 3. At each iteration:
     insert the value arr[i] at i of res array
@@ -76,3 +77,4 @@ int main() {
 
     return 0;
 }
+

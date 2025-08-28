@@ -1,12 +1,12 @@
 /*
 📌 Problem 7: Shuffle the array
 
-Problem Statement
+******* Problem Statement *******
 
 You are given an array nums of size 2n structured as [x1, x2, ..., xn, y1, y2, ..., yn].
 Return it rearranged as [x1, y1, x2, y2, ..., xn, yn].
 
-Understanding
+******* Understanding *******
 
 Array has exactly 2n elements.
 First half = x values
@@ -19,12 +19,12 @@ First half: [2,5,1]
 Second half: [3,4,7]
 Output: [2,3,5,4,1,7]
 
-approach:
+******* Approach *******
 
-2n size ki array h , means array ka 8 elements h tu n = 4 hoga, 
+2n size ki array h, means array ka 8 elements h tu n = 4 hoga, 
 phir hum resultant array me values push kre ga in a way:
 
-i or i + n , in elements ko pick kre ga or resultant me push kr de ga
+i aur (i + n), in elements ko pick kre ga or resultant me push kr de ga
 
 */
 
@@ -64,3 +64,4 @@ int main() {
 
     return 0;
 }
+

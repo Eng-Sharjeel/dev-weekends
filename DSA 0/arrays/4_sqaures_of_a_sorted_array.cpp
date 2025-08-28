@@ -1,13 +1,13 @@
 /*
 📌 Problem 4: Squares of a Sorted Array
 
-2. Problem Statement
+******* Problem Statement *******
 
-You are given a sorted integer array nums.
+You are given a sorted array of integers, nums.
 Return a new array containing the squares of each number, also sorted in non-decreasing order.
 nums can have negative numbers.
 
-Approach 1:
+******* Approach 1 *******
 
 Square every element → O(n)
 Sort the resulting array → O(n log n)
@@ -15,8 +15,8 @@ Sort the resulting array → O(n log n)
 -> Time Complexity: O(n log n)
 -> Space Complexity: O(n)
 
-Approach 2: for optimized approach
-***** Use two pointers *****
+******* Approach 2: for an optimized approach *******
+``` Use two pointers ```
 one at start (left) and one at end (right) --> can be i or j
 
 -> Time Complexity: O(n)
@@ -98,6 +98,7 @@ abs(0)=0 > abs(0)=0 → false
 else → 0^2=0 → result[0]
 → right=1, pos=-1
 result = [0,1,9,16,100]
+
 
 
 */

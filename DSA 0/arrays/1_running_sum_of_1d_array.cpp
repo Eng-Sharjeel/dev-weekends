@@ -1,11 +1,11 @@
 /*
 📌 Problem 1: Running Sum of Array
 
-Problem Statement:
+******** Problem Statement *******
 We are given an array nums.
 We need to return another array runningSum where each element is the sum of all elements from index 0 to i.
 
-Example:
+******* Example *******
 Input: [1,2,3,4]
 Output: [1,3,6,10] Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
 
@@ -25,5 +25,6 @@ vector<int> runningSum(vector<int>& nums) {
     }
     return nums;
 }
+
 
 

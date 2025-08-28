@@ -1,7 +1,7 @@
 /*
 📌 Problem 6: Number of Good Pairs
 
-Problem Statement:
+******* Problem Statement *******
 
 Given an array of integers nums, return the number of good pairs.
 A pair (i, j) is called good if:
@@ -9,7 +9,7 @@ A pair (i, j) is called good if:
 nums[i] == nums[j]
 i < j
 
-Understanding
+******* Understanding *******
 
 We’re basically counting pairs of equal numbers.
 Example:
@@ -20,7 +20,7 @@ Pairs are:
 (2,5) → both are 3
 Total = 4 pairs.
 
-Approches:
+******* Approches *******
 
 1. Brute Force (Nested Loops)
 
@@ -61,4 +61,5 @@ int main() {
     cout << numIdenticalPairs(nums) << endl; // Output: 4
     return 0;
 }
+
 
